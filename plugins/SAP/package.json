@@ -1,0 +1,22 @@
+{
+  "name": "mdk-sap",
+  "version": "1.0.0",
+  "description": "SAP Mobile Development Kit (MDK) Client. ",
+  "main": "index.js",
+  "nativescript": {
+    "platforms": {
+      "ios": "4.2.0",
+      "android": "4.2.0"
+    },
+    "tns-ios": {
+      "version": "4.2.0"
+    },
+    "tns-android": {
+      "version": "4.2.0"
+    }
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "SAP"
+}
