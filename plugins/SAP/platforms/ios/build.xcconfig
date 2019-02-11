@@ -6,5 +6,5 @@
 //  Copyright (C) 2016 SAP. All rights reserved.
 //
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = Yes
-OTHER_LDFLAGS = $(inherited) -framework "SAPMDC" -framework "SAPFiori" -framework "SAPFioriFlows" -framework "SAPFoundation" -framework "SAPOData" -framework "SAPOfflineOData" -framework "SAPCommon"
-
+IPHONEOS_DEPLOYMENT_TARGET = 11.0
+OTHER_LDFLAGS = $(inherited) -framework "SAPCommon" -framework "SAPFiori"
